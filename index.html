@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 6: Ninjas del Silencio Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 6:Ninjas del Silencio Digital</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Aprender cómo actuar ante mensajes ofensivos o solicitudes extrañas (ignorar, bloquear, avisar).</li>
+                                        <li>Fomentar la auto-protección en línea.</li>
+                                        <li>Manejar conflictos digitales iniciales.</li>
+                                        <li>Identificar y reportar solicitudes sospechosas a adultos.</li>
+                                        <li>Identificar situaciones digitales inseguras o groseras y responder de forma segura y asertiva.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Decisiones tomadas durante el reto interactivo "Elige tu Camino Ninja".</li>
+                                        <li>"I Can Statement" individual sobre el movimiento ninja secreto.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuadernos y colores para los estudiantes.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para estimular el pensamiento crítico.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Dos Verdades y un Mensaje Falso.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Ninjas digitales, a la acción! 🥷 Para afinar nuestro instinto, jugaremos 'Dos Verdades y un Mensaje Falso'. Yo empiezo: 1. Una vez usé un emoji de unicornio 🦄 en un chat con mi mamá. 2. Mi primera contraseña fue '1234'. 3. Un príncipe nigeriano me ofreció un millón de Robux por correo. ¿Cuál es el mensaje falso?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>En parejas, los estudiantes crean y comparten sus 3 afirmaciones sobre el mundo digital. Su compañero debe adivinar la falsa.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Correcto, la del príncipe! ¡Clásico engaño! Ahora ustedes, en parejas, piensen en sus 3 afirmaciones. ¡El reto es ser tan creativos que a su compañero le cueste adivinar! ¡A detectar mentiras, agentes!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: El Hechizo del Guardián.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente instinto, equipo! Ahora, recordemos nuestro hechizo de la misión pasada, el de los Guardianes de la Armonía. ¿Cuál era ese poder de dos partes que usábamos antes de teclear?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Los estudiantes recuerdan el hechizo: "Pausa y Piensa... Teclea y Conecta". El maestro lo conecta con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Memoria de titanes! ✨ Pausa y Piensa (cerebro) 🧠... ¡Teclea y Conecta (corazón)! ❤️ ¡Ese hechizo es para enviar buena energía! Pero, ¿qué pasa cuando un mensaje que RECIBIMOS no tiene ni cerebro ni corazón? ¿Qué hacemos cuando la mala vibra toca a nuestra puerta digital? ¡Esa es nuestra misión de hoy!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de agilidad y estrategia.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de un ninja digital esquivando "dardos" de texto y activando un escudo protector).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en NINJAS DEL SILENCIO DIGITAL. Un ninja no busca peleas; las evita con inteligencia, velocidad y estrategia. Hoy aprenderemos los tres movimientos secretos para desvanecernos ante el peligro y proteger nuestra paz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" y lo comparten.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo ninja tiene su movimiento especial. El mío es: 'Yo puedo activar mi escudo de bloqueo en menos de 3 segundos'. Ahora ustedes escriban, en su bitácora ninja, completen: 'Hoy mi movimiento secreto será...'. ¡Compártanlo con su compañero de dojo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia sobre una solicitud extraña y escalonada.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: El Caso del Amigo Misterioso.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Dani. Está jugando 'Cosmic Racers' y recibe una solicitud de amistad de un tal 'ShadowHunter7'. Dani acepta. Inmediatamente, ShadowHunter7 le escribe: '¡Hola! Oye, me falta un turbo-cristal para ganar. ¿Me regalas uno?'</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. La Solicitud Inquietante. (Imagen del chat, donde ShadowHunter7 ahora escribe: "OK, no importa. Oye, ¿en qué ciudad vives? Podríamos jugar en persona").</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Dani se siente un poco raro y no contesta. ShadowHunter7 insiste: '¿No me vas a decir? Qué mal amigo. Dame tu contraseña y te cargo cristales yo mismo'. Pregunta: La situación se puso muy extraña, muy rápido. Si fueran Dani, ¿cuál de los tres movimientos ninja (Ignorar, Bloquear, Avisar) usarían en este momento y por qué?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelentes estrategias ninja! Ignorar al principio estuvo bien, pero cuando pidió información personal y la contraseña... ¡la alarma sonó! 🚨 ¡Era momento de usar los movimientos más poderosos! Hoy vamos a practicar exactamente cuándo y cómo usar cada uno de esos movimientos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la aplicación de los 3 pasos (ignorar, bloquear, reportar) en un entorno seguro.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: El Dojo Ninja y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al dojo! Entren al Gamer Express y jueguen la misión 'El Camino del Ninja'. Se enfrentarán a diferentes situaciones. Su objetivo: usar el movimiento correcto para cada una. A veces bastará con el silencio (ignorar), otras necesitarán el escudo (bloquear). ¡Demuestren su maestría!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto interactivo, estableciendo un escenario y el poder de decisión.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: Elige tu Camino Ninja.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han entrenado bien, ninjas! Ahora, la prueba final. Se encontrarán en medio de una situación real y sus decisiones cambiarán el rumbo de la historia. ¡Prepárense para la misión 'Elige tu Camino Ninja'! 🥷</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 3 minutos</h3>
+                            <p>Proyectar Diapositiva 9. Escena 1: El Chat del Proyecto. (Imagen de un chat grupal para un proyecto escolar).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Están en el chat del proyecto de ciencias. De repente, un compañero, Marco, pone un meme burlándose de cómo habla otra compañera, Ana. ¿Qué hacen? <br> A) Responder con un emoji de risa.<br> B) Ignorar el mensaje y seguir hablando del proyecto. <br>C) Salirse del grupo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 4 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Escena 2: El Mensaje Privado. (El maestro revela las consecuencias de cada opción y continúa la historia).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Digamos que eligieron B, la ruta del silencio. Ahora, Marco les manda un mensaje privado: '¿Por qué no te reíste? Qué aburrido. Oye, pásame tu contraseña de Gnius Club para 'ayudarte' con tu parte del proyecto'. ¿Qué hacen AHORA? <br>A) Inventar una contraseña falsa para engañarlo. <br> B) Usar el combo ninja definitivo: BLOQUEAR a Marco y AVISAR al maestro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 11. El Camino del Maestro Ninja.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! ¿Qué camino eligieron al final? ¡El B! ¡Exacto! Engañarlo podría empeorar las cosas, pero Bloquear y Avisar es el movimiento de un verdadero Maestro Ninja. Corta el problema de raíz y pide ayuda a un aliado más fuerte. ¡Misión cumplida!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 12. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado el honor y la sabiduría de un ninja! Han dominado los movimientos secretos. Una última pregunta: ¿Cuál es el orden de poder de nuestros movimientos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. El Código del Ninja Digital. El maestro escucha respuestas y presenta el código.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! Empezamos con el más simple y escalamos si es necesario. Para que nunca lo olviden, esta no es una clave, es el Código del Ninja Digital. Apréndanselo de memoria:<br>✨ 1. Ante el insulto, mi poder es el silencio (IGNORAR). <br>✨ 2. Si insisten, mi muro es invisible (BLOQUEAR). <br>✨ 3. Y si hay peligro, mi voz es mi súper-arma (AVISAR).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>El maestro guía la repetición del código con gestos. Lanza la pregunta de conexión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a actuar el código! ¡Paso 1! (Dedo en los labios). ¡Paso 2! (Manos al frente como un muro). ¡Paso 3! (Manos alrededor de la boca, como gritando). ¡Perfecto! Guarden este código, porque nos deja una pregunta: Si ya somos ninjas que se protegen a sí mismos, ¿cómo nos convertimos en héroes que protegen a TODA la comunidad digital? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
